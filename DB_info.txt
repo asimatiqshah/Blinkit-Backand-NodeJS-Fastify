@@ -1,0 +1,12 @@
+Username : shahasimatiq
+Password : mehmoodabad33
+
+
+mongodb+srv://shahasimatiq:<db_password>@blinkitcluster0.8bnsb.mongodb.net/?retryWrites=true&w=majority&appName=BlinkitCluster0
+
+MONGO_URI
+COOKIE_PASSWORD
+ACCESS_TOKEN_SECRET
+REFRESH_TOKEN_SECRET
+
+
