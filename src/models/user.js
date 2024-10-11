@@ -10,7 +10,6 @@ const userSchema = new mongoose.Schema({
     isActivated: { type: Boolean, default: false }
 });
 
-
 //Customer Schema
 const customerSchema = new mongoose.Schema({
     ...userSchema.obj,
