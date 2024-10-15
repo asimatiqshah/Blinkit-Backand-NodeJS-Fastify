@@ -44,7 +44,7 @@ const deliveryPartnerSchema = new mongoose.Schema({
     address:{type:String},
     branch:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:"branches"
+        ref:"Branch"
     }
 });
 
@@ -62,12 +62,12 @@ const adminSchema = new mongoose.Schema({
 });
 
 //Create Model
-const Customer = mongoose.model("customers",customerSchema);
-const Delivery = mongoose.model("deliveries",deliveryPartnerSchema);
-const Admin = mongoose.model("admins",adminSchema);
+const Customer = mongoose.model("Customer",customerSchema);
+const DeliveryPartner = mongoose.model("DeliveryPartner",deliveryPartnerSchema);
+const Admin = mongoose.model("Admin",adminSchema);
 
 module.exports = {
     Customer,
-    Delivery,
+    DeliveryPartner,
     Admin
 };

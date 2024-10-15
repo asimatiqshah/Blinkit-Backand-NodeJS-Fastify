@@ -10,12 +10,12 @@ const branchSchema = new mongoose.Schema({
     deliveryPartners:[
         {
             type:mongoose.Schema.Types.ObjectId,
-            ref:"Delivery"
+            ref:"DeliveryPartner"
         }
     ]
 });
 
-const Branch = mongoose.model('branches',branchSchema);
+const Branch = mongoose.model('Branch',branchSchema);
 
 module.exports={
     Branch

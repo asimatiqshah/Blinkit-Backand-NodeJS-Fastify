@@ -1,13 +1,9 @@
 const { Branch } = require("./branch");
-const { Category } = require("./category");
-const { Product } = require("./product");
-const { Customer, Admin , Delivery } = require("./user");
+const { Customer, DeliveryPartner, Admin } = require("./user");
 
 module.exports={
     Customer,
-    Delivery,
+    DeliveryPartner,
     Admin,
-    Branch,
-    Product,
-    Category
+    Branch
 }
